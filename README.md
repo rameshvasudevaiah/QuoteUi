@@ -1,4 +1,12 @@
-# allianzQuoteMonoGradle
+# Running this Sample
+
+1. pull the code the local machine, git fetch https://github.com/rameshvasudevaiah/QuoteUi.git
+2. cd <to the code directory>
+3. Run, yarn install 
+4. Run, ./gradlew -Pdev -Pwebpack
+5. On browser open, http://localhost:8080
+
+# QuoteMonoGradle
 This application was generated using JHipster 4.6.1, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.6.1](https://jhipster.github.io/documentation-archive/v4.6.1).
 
 ## Development
@@ -72,7 +80,7 @@ will generate few files:
 
 ## Building for production
 
-To optimize the allianzQuoteMonoGradle application for production, run:
+To optimize the QuoteMonoGradle application for production, run:
 
     ./gradlew -Pprod clean bootRepackage
 
